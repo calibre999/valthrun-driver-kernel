@@ -16,6 +16,8 @@ This is the implementation for the Valthrun driver protocol as a kernel driver.
 # Go to ether the standalone or UEFI driver
 cd driver-standalone
 
+545
+
 # Create a release build.
 # The result will be located at "../target/x86_64-pc-windows-msvc/release/valthrun-driver.sys"
 cargo b -r
